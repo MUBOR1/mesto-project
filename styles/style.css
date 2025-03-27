@@ -434,3 +434,27 @@
       margin-top: 45px;
     }
   }
+
+  .footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-top: 1px solid rgba(84, 84, 84, 0.7);
+  }
+  
+  .footer__copyright {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 15px 0;
+    }
+    
+    .footer__copyright {
+      font-size: 12px;
+    }
+  }
